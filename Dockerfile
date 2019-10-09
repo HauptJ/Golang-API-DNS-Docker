@@ -15,8 +15,11 @@ MAINTAINER joshua@hauptj.com
 RUN go get github.com/gorilla/context \
     github.com/gorilla/mux \
     golang.org/x/net/context/ctxhttp \
-    github.com/google/go-cmp/cmp
-
+    github.com/google/go-cmp/cmp \
+    github.com/HauptJ/Golang-API-DNS/AddrLookup \
+    github.com/HauptJ/Golang-API-DNS/CNAMELookup \
+    github.com/HauptJ/Golang-API-DNS/HostLookup \
+    github.com/HauptJ/Golang-API-DNS/MXLookup
 
 # Copy Golang source code
 RUN mkdir /DNSAPI
