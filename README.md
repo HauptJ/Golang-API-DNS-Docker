@@ -15,5 +15,7 @@ Docker Cradle for my [Golang-API-DNS](https://github.com/HauptJ/Golang-API-DNS) 
     - `docker-compose` build
     - `docker-compose` up
 
+4. To stop
+    - `docker-compose` down
 
 
